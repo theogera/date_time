@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: bold 12px Arial, Helvetica, sans-serif;
+    background-color: rgb(82, 42, 42);
+}
+
+/*================ Athens ================*/
+.athensClock{
+    border: 10px solid #606060;
+    color: white;
+    padding: 40px;
+    border-radius: 100px;
+    background-color: #222222;
+}
+.athensClock ul1{
+    list-style: none;
+    display: flex;
+    font-size: 90px;
+    gap:15px;
+}
+.athensClock ul2{
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    gap: 15px;
+    justify-content: center;
+    color: #6a9fdf
+}
+#athensDate{
+    font-size: 25px !important;
+    text-align: center;
+}
+/*================ London ================*/
+.londonClock{
+    border: 10px solid #606060;
+    color: white;
+    padding: 40px;
+    border-radius: 100px;
+    background-color: #222222;
+}
+.londonClock ul3{
+    list-style: none;
+    display: flex;
+    font-size: 90px;
+    gap: 15px;
+}
+.londonClock ul4{
+    list-style:none;
+    display: flex;
+    font-size: 20px;
+    gap: 15px;
+    justify-content:center;
+    color:#6a8fdf;
+}
+#londonDate{
+    font-size: 25px !important;
+    text-align: center;
+}
+/*================ Tokyo ================*/
+.tokyoClock{
+    border: 10px solid #606060;
+    color: white;
+    padding: 40px;
+    border-radius: 100px;
+    background-color: #222222;
+}
+.tokyoClock ul5{
+    list-style: none;
+    display: flex;
+    font-size: 90px;
+    gap:15px;
+}
+.tokyoClock ul6{
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    gap: 15px;
+    justify-content: center;
+    color: #6a9fdf
+}
+#tokyoDate{
+    font-size: 25px !important;
+    text-align: center;
+}
+/*================ Delhi ================*/
+.delhiClock{
+    border: 10px solid #606060;
+    color: white;
+    padding: 40px;
+    border-radius: 100px;
+    background-color: #222222;
+}
+.delhiClock ul7{
+    list-style: none;
+    display: flex;
+    font-size: 90px;
+    gap: 15px;
+}
+.delhiClock ul8{
+    list-style:none;
+    display: flex;
+    font-size: 20px;
+    gap: 15px;
+    justify-content:center;
+    color:#6a8fdf;
+}
+#delhiDate{
+    font-size: 25px !important;
+    text-align: center;
+}
+/*================ Shanghai ================*/
+.shanghaiClock{
+    border: 10px solid #606060;
+    color: white;
+    padding: 40px;
+    border-radius: 100px;
+    background-color: #222222;
+}
+.shanghaiClock ul9{
+    list-style: none;
+    display: flex;
+    font-size: 90px;
+    gap:15px;
+}
+.shanghaiClock ul10{
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    gap: 15px;
+    justify-content: center;
+    color: #6a9fdf
+}
+#shanghaiDate{
+    font-size: 25px !important;
+    text-align: center;
+}
+/*================ Sao Paulo ================*/
+.saoPauloClock{
+    border: 10px solid #606060;
+    color: white;
+    padding: 40px;
+    border-radius: 100px;
+    background-color: #222222;
+}
+.saoPauloClock ul11{
+    list-style: none;
+    display: flex;
+    font-size: 90px;
+    gap: 15px;
+}
+.saoPauloClock ul12{
+    list-style:none;
+    display: flex;
+    font-size: 20px;
+    gap: 15px;
+    justify-content:center;
+    color:#6a8fdf;
+}
+#saoPauloDate{
+    font-size: 25px !important;
+    text-align: center;
+}
+/*================ Mexico City ================*/
+.mexicoCityClock{
+    border: 10px solid #606060;
+    color: white;
+    padding: 40px;
+    border-radius: 100px;
+    background-color: #222222;
+}
+.mexicoCityClock ul13{
+    list-style: none;
+    display: flex;
+    font-size: 90px;
+    gap:15px;
+}
+.mexicoCityClock ul14{
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    gap: 15px;
+    justify-content: center;
+    color: #6a9fdf
+}
+#mexicoCityDate{
+    font-size: 25px !important;
+    text-align: center;
+}
+/*================ Cairo ================*/
+.cairoClock{
+    border: 10px solid #606060;
+    color: white;
+    padding: 40px;
+    border-radius: 100px;
+    background-color: #222222;
+}
+.cairoClock ul15{
+    list-style: none;
+    display: flex;
+    font-size: 90px;
+    gap: 15px;
+}
+.cairoClock ul16{
+    list-style:none;
+    display: flex;
+    font-size: 20px;
+    gap: 15px;
+    justify-content:center;
+    color:#6a8fdf;
+}
+#cairoDate{
+    font-size: 25px !important;
+    text-align: center;
+}
+/*================ Mumbai ================*/
+.mumbaiClock{
+    border: 10px solid #606060;
+    color: white;
+    padding: 40px;
+    border-radius: 100px;
+    background-color: #222222;
+}
+.mumbaiClock ul17{
+    list-style: none;
+    display: flex;
+    font-size: 90px;
+    gap:15px;
+}
+.mumbaiClock ul18{
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    gap: 15px;
+    justify-content: center;
+    color: #6a9fdf
+}
+#mumbaiDate{
+    font-size: 25px !important;
+    text-align: center;
+}
+
+/*================ Beijing ================*/
+.beijingClock{
+    border: 10px solid #606060;
+    color: white;
+    padding: 40px;
+    border-radius: 100px;
+    background-color: #222222;
+}
+.beijingClock ul19{
+    list-style: none;
+    display: flex;
+    font-size: 90px;
+    gap: 15px;
+}
+.beijingClock ul20{
+    list-style:none;
+    display: flex;
+    font-size: 20px;
+    gap: 15px;
+    justify-content:center;
+    color:#6a8fdf;
+}
+#beijingDate{
+    font-size: 25px !important;
+    text-align: center;
+}
+
+/*================ Dhaka ================*/
+.dhakaClock{
+    border: 10px solid #606060;
+    color: white;
+    padding: 40px;
+    border-radius: 100px;
+    background-color: #222222;
+}
+.dhakaClock ul21{
+    list-style: none;
+    display: flex;
+    font-size: 90px;
+    gap:15px;
+}
+.dhakaClock ul22{
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    gap: 15px;
+    justify-content: center;
+    color: #6a9fdf
+}
+#dhakaDate{
+    font-size: 25px !important;
+    text-align: center;
+}
+
+/*================ Osaka ================*/
+.osakaClock{
+    border: 10px solid #606060;
+    color: white;
+    padding: 40px;
+    border-radius: 100px;
+    background-color: #222222;
+}
+.osakaClock ul23{
+    list-style: none;
+    display: flex;
+    font-size: 90px;
+    gap: 15px;
+}
+.osakaClock ul24{
+    list-style:none;
+    display: flex;
+    font-size: 20px;
+    gap: 15px;
+    justify-content:center;
+    color:#6a8fdf;
+}
+#osakaDate{
+    font-size: 25px !important;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    height: 90vh;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    row-gap: 5em;
+    column-gap: 150px;
+}
